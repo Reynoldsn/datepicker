@@ -77,15 +77,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ (function(module, exports) {
 
-var obj = {
-    name: 'thomas',
-    make: 'money'
+module.exports = {
+    hello: function hello(name) {
+        console.log('hello ' + name);
+    }
 };
-
-var name = obj.name,
-    make = obj.make;
-
-console.log(name, make);
 
 /***/ })
 /******/ ]);
