@@ -79,7 +79,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 module.exports = {
     hello: function hello(name) {
-        console.log('hello ' + name);
+        console.log('hello there ' + name);
     }
 };
 
